@@ -92,7 +92,8 @@ header {
     z-index: 1;
 }
 
-.menu-close, .menu-open {
+.menu-close,
+.menu-open {
     display: none;
 }
 
@@ -563,23 +564,29 @@ footer h2 {
 }
 
 @media (max-width:768px) {
-    header, footer {
+
+    header,
+    footer {
         padding: 1.3rem 3%;
     }
 
     .inicio-content h2 {
         font-size: 3.9rem;
     }
+
     .servicos-container {
         width: 95vw;
     }
+
     .servico {
         width: 24.0rem;
         height: 28.0rem;
     }
+
     .integrantes-container {
         width: 98vw;
     }
+
     .integrante img {
         width: 19rem;
     }
@@ -590,6 +597,7 @@ footer h2 {
     section {
         padding: 4rem 3%;
     }
+
     header .redes {
         display: none;
     }
@@ -623,7 +631,7 @@ footer h2 {
     .nav-bar-lateral ul li:nth-child(1) {
         display: block;
     }
-    
+
     .nav-bar-lateral ul li {
         width: 70%;
     }
@@ -636,7 +644,7 @@ footer h2 {
         font-size: 2.7rem;
         padding: 1.6rem;
         border-radius: .5rem;
-}        
+    }
 
     .menu-close {
         position: absolute;
@@ -653,20 +661,21 @@ footer h2 {
         display: block;
     }
 
-    .inicio-content, .inicio p {
+    .inicio-content,
+    .inicio p {
         width: 100%;
     }
-    
+
     .sobre .flex-box {
         flex-direction: column;
         gap: 8rem;
     }
-    
+
     .img-redes img {
         width: 75vw;
         height: 30rem;
     }
-    
+
     .sobre .flex-box p {
         width: 75vw;
     }
@@ -718,20 +727,20 @@ footer h2 {
     #contato-txt-2 {
         display: flex;
     }
-    
+
     .contato-content {
         align-items: start;
         width: 50rem;
     }
-    
+
     .contato-content h1 {
         font-size: 3.8rem;
     }
-    
+
     .contato-content .btn {
         display: none;
     }
-    
+
     .contato form .btn {
         cursor: pointer;
         padding: 1rem 1.5rem;
@@ -744,11 +753,13 @@ footer h2 {
         background-size: 80%;
         background-position: center;
     }
+
     .servico:nth-child(3) {
         height: 19rem;
         width: 100%;
         margin-top: 1rem;
     }
+
     .servicos-container {
         gap: 1rem;
         justify-content: space-between;
@@ -763,7 +774,8 @@ footer h2 {
         gap: 3rem;
     }
 
-    .contato-content, .contato form {
+    .contato-content,
+    .contato form {
         width: 90vw;
     }
 
@@ -774,9 +786,8 @@ footer h2 {
     footer .image {
         width: 10rem;
     }
-    
+
     .up a i {
         display: none;
     }
 }
-
