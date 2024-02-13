@@ -178,6 +178,7 @@ nav ul li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 .inicio-content {
@@ -744,7 +745,7 @@ footer h2 {
         background-position: center;
     }
     .servico:nth-child(3) {
-        height: 22rem;
+        height: 19rem;
         width: 100%;
         margin-top: 1rem;
     }
@@ -757,24 +758,6 @@ footer h2 {
     #whatsapp-btn {
         padding: .6rem .5rem;
     }
-    footer .image {
-        width: 12rem;
-    }
-    
-    .up a i {
-        display: none;
-    }
-
-    footer {
-        padding: 1.3rem 1%;
-    }
-}
-
-@media (max-width:360px) {
-    .servico:nth-child(3) {
-        height: 19rem;
-        background-size: 40%;
-    }
 
     .dupla {
         gap: 3rem;
@@ -782,6 +765,10 @@ footer h2 {
 
     .contato-content, .contato form {
         width: 90vw;
+    }
+
+    footer {
+        padding: 1.3rem 1%;
     }
 
     footer .image {
@@ -792,3 +779,4 @@ footer h2 {
         display: none;
     }
 }
+
