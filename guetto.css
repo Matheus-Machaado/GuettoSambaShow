@@ -125,7 +125,7 @@ nav ul li a {
     transition: .2s ease-in-out;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, nav ul li a.active{
     color: var(--blackhover);
 }
 
